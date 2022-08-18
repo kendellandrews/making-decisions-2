@@ -10,37 +10,37 @@ var arr = [10,20,30,40,50,60]
 // let firstItem = arr[0]
 
 // // ////////// PROBLEM 2 //////////
+// // // /*
+// // //   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
+// // // */
+
+// // // //Code Here
+
+// // let lastItemRemoved = arr.pop()
+// //   console.log(arr)
+
+
+// // // ////////// PROBLEM 3 //////////
+
+// // // // Do not edit the code below.
+// let family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+// // // // Do not edit the code above.
+
 // // /*
-// //   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
+// //   Loop through the 'family' array and console.log every item.
 // // */
 
 // // //Code Here
 
-// let lastItemRemoved = arr.pop()
-//   console.log(arr)
-
-
-// // ////////// PROBLEM 3 //////////
-
-// // // Do not edit the code below.
-let family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
-// // // Do not edit the code above.
-
-// /*
-//   Loop through the 'family' array and console.log every item.
-// */
-
-// //Code Here
-
-for (let i = 0; i < family.length; i++) {
-  console.log(family[i])
-}
+// for (let i = 0; i < family.length; i++) {
+//   console.log(family[i])
+// }
 
 // ////////// PROBLEM 4 //////////
 
 // // Do not edit the code below.
-// var nums = [1,2,3,6,22,98,45,23,22,12];
-// let evensArr = []
+var nums = [1,2,3,6,22,98,45,23,22,12];
+let evensArr = []
 // // Do not edit the code above.
 
 // /*
@@ -49,12 +49,15 @@ for (let i = 0; i < family.length; i++) {
 
 // //Code Here
 
-
+// for (let i = 0; i < nums.length; i++) {
+//   if (i % 2 === 0 ) 
+//     console.log(i)
+//   }
 
 // ////////// PROBLEM 5 //////////
 
 // // Do not edit the code below.
-// var score = 74
+var score = 85
 // // Do not edit the code above.
 
 // /*
@@ -62,6 +65,20 @@ for (let i = 0; i < family.length; i++) {
 // */
 
 // //Code Here
+
+// if( score >= 90){
+//   console.log('A')
+// } else if( score >= 80 && score <= 89){
+//   console.log('B')
+// } else if (score >= 70 && score <= 79){
+//   console.log('C')
+//   } else if (score >= 60 && score <= 69){
+//     console.log('D')
+//   }else if(score < 60){
+//     console.log('F')
+//   }
+
+
 
 
 // ////////// Intermediate Problems //////////
